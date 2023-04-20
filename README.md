@@ -5,6 +5,7 @@
 - user management.
 ## https://hub.docker.com/r/jboss/keycloak/
 ## [imp](https://www.keycloak.org/server/containers)
-## docker container through run keycloak.
-- docker run quay.io/keycloak/keycloak start-dev
+## To run keycloak application container. 
+- docker run -p 8080:8080 -e KEYCLOAK_ADMIN=admin -e KEYCLOAK_ADMIN_PASSWORD=admin -d quay.io/keycloak/keycloak:latest start-dev
+- 
 - https://youtu.be/_5a_r7iBC6Q
